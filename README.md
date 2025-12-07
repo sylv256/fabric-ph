@@ -1,9 +1,10 @@
-# Fabric Example Mod
+# Fabric Placeholder
+A placeholder mod that provides the `fabric` mod ID for older mods.
 
-## Setup
+## Use Case
+You may need this if you're using simpler mods that support many
+versions at once within one jar or simply a mod that hasn't updated
+to using the `fabric-api` mod ID as a dependency.
 
-For setup instructions please see the [fabric documentation page](https://docs.fabricmc.net/develop/getting-started/setting-up) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+In general, it is better to install this mod than not, especially
+if a mod requires `fabric` and you have Fabric API installed.
